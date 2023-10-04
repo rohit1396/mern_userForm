@@ -10,7 +10,7 @@ require("./db/connect");
 
 app.use(require("./router/auth"));
 
-const port = process.env.PORT;
+const port = process.env.PORT || 8000;
 
 // app.get("/about", middleware, (req, res) => {
 //   res.send("Let's make About Page");
