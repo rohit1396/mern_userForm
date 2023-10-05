@@ -7,7 +7,7 @@ const About = () => {
 
   const getAboutPage = async () => {
     try {
-      const res = await fetch("/about", {
+      const res = await fetch("https://mern-user-form.vercel.app/about", {
         method: "GET",
         headers: {
           Accept: "application/json",
