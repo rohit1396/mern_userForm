@@ -11,7 +11,7 @@ const Contact = () => {
 
   const getContactPage = async () => {
     try {
-      const res = await fetch("/getdata", {
+      const res = await fetch("https://mern-user-form.vercel.app/getdata", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
