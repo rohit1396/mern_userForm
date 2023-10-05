@@ -26,7 +26,7 @@ const About = () => {
       }
     } catch (err) {
       console.log(err);
-      navigate("https://mern-user-form.vercel.app/login");
+      navigate("/login");
     }
   };
 
