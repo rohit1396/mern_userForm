@@ -1,8 +1,18 @@
 const dotenv = require("dotenv");
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const cookieParser = require("cookie-parser");
 app.use(cookieParser());
+
+app.use(
+  cors({
+    origin: ["https://mern-user-form.vercel.app/"],
+    methods: ["POST", "GET"],
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 
 dotenv.config({ path: "./config.env" });
