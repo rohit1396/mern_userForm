@@ -5,7 +5,7 @@ const Logout = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/logout", {
+    fetch("https://mern-user-form.vercel.app/logout", {
       method: "GET",
       headers: {
         Accept: "application/json",
