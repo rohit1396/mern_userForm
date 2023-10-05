@@ -31,7 +31,7 @@ const Logout = () => {
       <h3>User Loggoed Out</h3>
       <h4>You need to login</h4>
       <button>
-        <NavLink to="/signin">Log In</NavLink>
+        <NavLink to="/login">Log In</NavLink>
       </button>
     </div>
   );
