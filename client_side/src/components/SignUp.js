@@ -26,7 +26,7 @@ const SignUp = () => {
     const { firstname, lastname, email, phone, password, confirm_password } =
       user;
 
-    const res = await fetch("/register", {
+    const res = await fetch("https://mern-user-form.vercel.app/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
