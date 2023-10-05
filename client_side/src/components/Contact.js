@@ -57,7 +57,7 @@ const Contact = () => {
     console.log("submitted");
     const { firstname, lastname, email, phone, message } = userData;
 
-    const res = await fetch("/contact", {
+    const res = await fetch("https://mern-user-form.vercel.app/contact", {
       method: "POST",
       headers: {
         Accept: "application/json",
