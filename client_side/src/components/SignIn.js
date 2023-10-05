@@ -27,7 +27,7 @@ const SignIn = () => {
       window.alert("Login Failed");
     } else {
       window.alert("Login Successfully");
-      navigate("https://mern-user-form.vercel.app/");
+      navigate("/");
     }
   };
   return (
