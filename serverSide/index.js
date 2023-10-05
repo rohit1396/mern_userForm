@@ -7,7 +7,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ["https:localhost:8000", "https://mern-user-form.vercel.app/"],
+    origin: ["https:localhost:8000", "https://mern-user-form-c52w.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true,
   })
