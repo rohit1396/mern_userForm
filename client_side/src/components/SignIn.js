@@ -10,7 +10,7 @@ const SignIn = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("/signin", {
+    const res = await fetch("https://mern-user-form.vercel.app/signin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -27,7 +27,7 @@ const SignIn = () => {
       window.alert("Login Failed");
     } else {
       window.alert("Login Successfully");
-      navigate("/");
+      navigate("https://mern-user-form.vercel.app/");
     }
   };
   return (
