@@ -30,27 +30,27 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <div className="nav-logo">
-        <Link to="https://mern-user-form.vercel.app/">
+        <Link to="/">
           <span>UserForm</span>
         </Link>
       </div>
       <div className="nav-links">
-        <Link to="https://mern-user-form.vercel.app/">
+        <Link to="/">
           <span>Home</span>
         </Link>
-        <Link to="https://mern-user-form.vercel.app/about">
+        <Link to="/about">
           <span>About</span>
         </Link>
-        <Link to="https://mern-user-form.vercel.app/contact">
+        <Link to="/contact">
           <span>Contact</span>
         </Link>
-        <Link to="https://mern-user-form.vercel.app/login">
+        <Link to="/login">
           <span>Login</span>
         </Link>
-        <Link to="https://mern-user-form.vercel.app/signup">
+        <Link to="/signup">
           <span>Sign Up</span>
         </Link>
-        <Link to="https://mern-user-form.vercel.app/logout">
+        <Link to="/logout">
           <span>Logout</span>
         </Link>
       </div>
